@@ -1,0 +1,33 @@
+import React from "react";
+import starImg from "../imgs/star.png";
+import trashImg from "../imgs/trash-can.png";
+
+function Job(data) {
+  const { title, onDelete } = data;
+  return (
+    <div>
+      <div className="flex justify-between w-[40%] mx-auto max-w-[500px] border-[2px] h-[50px] items-center hover:bg-purple-100">
+        <div className="mx-[20px]">{title}</div>
+        <div className="flex">
+          <div>
+            <img
+              className="w-[20px] h-[20px] cursor-pointer mx-[10px]"
+              src={starImg}
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              className="w-[20px] h-[20px] cursor-pointer mx-[10px]"
+              src={trashImg}
+              alt=""
+              onClick={onDelete}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Job;
