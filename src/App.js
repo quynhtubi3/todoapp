@@ -101,7 +101,7 @@ function App() {
               </div>
               <div className="search-box mx-[5px] w-[70%]">
                 <input
-                  className="outline-none"
+                  className="outline-none w-[150px]"
                   type="text"
                   placeholder="Search..."
                   onChange={handleSearchChange}
