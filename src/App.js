@@ -91,7 +91,7 @@ function App() {
       <div className="content">
         <div>
           <div className="flex justify-start items-center sm:w-[500px] mx-auto w-[200px]">
-            <div className="flex items-center border w-[300px] my-[20px] h-[30px] rounded-[8px]">
+            <div className="flex items-center border w-[200px] my-[20px] h-[30px] rounded-[8px]">
               <div>
                 <img
                   className="w-[20px] h-[20px] mx-[10px]"
