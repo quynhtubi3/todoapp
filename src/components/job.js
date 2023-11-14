@@ -7,7 +7,7 @@ function Job(data) {
   return (
     <div>
       <div
-        className={`flex justify-between w-[40%] mx-auto max-w-[500px] border-[2px] h-[50px] items-center hover:bg-purple-100
+        className={`flex justify-between sm:w-[500px] w-[300px] mx-auto max-w-[500px] border-[2px] min-h-[50px] items-center hover:bg-purple-100
       ${isHightLighted ? "bg-yellow-100 hover:bg-yellow-400" : ""}`}
       >
         <div className="mx-[20px]">{title}</div>
